@@ -9,7 +9,7 @@ function promptUser() {
     {
       type: "input",
       name: "title",
-      message: "What's your project name?'"
+      message: "What's your project name?"
     },
     {
       type: "input",
@@ -19,7 +19,7 @@ function promptUser() {
     {
       type: "input",
       name: "installation",
-      message: "How do you install your application? Type NONE if no instructions are necessary"
+      message: "What are the installation requirements?"
     },
     {
       type: "input",
@@ -43,6 +43,12 @@ function promptUser() {
       type: "input",
       name:"contributors",
       message:"Who's contributed to this work?"
+    },
+
+    {
+      type:"input",
+      name: "tests",
+      message:"How can your app be tested? Type NONE if no testing is necessary"
     },
 
     {
@@ -89,18 +95,20 @@ ${answers.installation}
 
 ${answers.useage} 
 
-
-## Contributing
-
-${answers.contributors}
-
-
 ## License
 
   For more information on the license used, please click on the link below:
 
 - [License] (https://opensource.org/licenses/${answers.license})
 
+
+## Contributing
+
+${answers.contributors}
+
+## Tests 
+
+${answers.tests}
 
 ## Questions
 
