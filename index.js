@@ -31,7 +31,7 @@ function promptUser() {
       type:"checkbox",
       message: "Please select a license",
       choices: [
-        "Apache",
+        "Apache-2.0",
         "MIT",
         "ISC",
         "GPL-3.0",
