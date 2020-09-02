@@ -1,7 +1,9 @@
 
+# README generator
+
 ## Description 
 
-A readme generator that takes in user input to create a readme using node.js and js
+An app that creates a readme based on user input. This app uses node.js and javascript to generate the readme file.
 
 
 ## Table of Contents
@@ -18,24 +20,26 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Installation
 
-You must install node.js, instructions are available at [Node Install] (https://nodejs.org/en/download/) then you must install util, fs, and inquirer.
+You must install node.js which can be found at the following link. [Node.JS] (https://nodejs.org/en/download/) After which you must install fs, util, and inquirer in order to run the program.
 
 ## Usage 
 
-This project will be used to automatically generate a README file for any coding projects that are to be posted to git 
-
-
-## Contributing
-
-undefined
-
+This project will be used to generate readme files for any github project. 
 
 ## License
 
   For more information on the license used, please click on the link below:
 
-- [License] (https://opensource.org/licenses/Apache)
+- [License] (https://opensource.org/licenses/GPL-3.0)
 
+
+## Contributing
+
+UCSD Coding Bootcamp supplied the basis of which this code was built on. All additional features were coded by me.
+
+## Tests 
+
+none
 
 ## Questions
 
