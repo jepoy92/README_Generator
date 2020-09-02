@@ -1,6 +1,4 @@
 
-  # Readme
-
 ## Description 
 
 A readme generator that takes in user input to create a readme using node.js and js

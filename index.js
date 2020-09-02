@@ -68,7 +68,7 @@ function promptUser() {
 
 function generateHTML(answers) {
   return `
-  # ${answers.title}
+# ${answers.title}
 
 ## Description 
 
