@@ -19,7 +19,7 @@ function promptUser() {
     {
       type: "input",
       name: "installation",
-      message: "How do you install your application?"
+      message: "How do you install your application? Type NONE if no instructions are necessary"
     },
     {
       type: "input",
@@ -92,7 +92,7 @@ ${answers.useage}
 
 ## Contributing
 
-${answers.contributing}
+${answers.contributors}
 
 
 ## License
