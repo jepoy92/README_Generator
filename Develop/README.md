@@ -1,9 +1,9 @@
 
-# Test name
+# test
 
 ## Description 
 
-Test name
+test
 
 
 ## Table of Contents
@@ -20,11 +20,11 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Installation
 
-Test name
+test
 
 ## Usage 
 
-Test name 
+test 
 
 ## License
 
@@ -35,17 +35,17 @@ Test name
 
 ## Contributing
 
-Test name	
+test
 
 ## Tests 
 
-Test name
+test
 
 ## Questions
 
   For questions concerning my apps, click on the link below for my github:
 
-  [Github Link] (https://github.com/test)
+  [Github Link] (https://github.com/jepoy92)
 
   Or click the link below for my email:
 
