@@ -34,7 +34,7 @@ function promptUser() {
         "Apache",
         "MIT",
         "ISC",
-        "GNU GPL v3",
+        "GPL-3.0",
       ],
       name:"license",
     },
@@ -43,17 +43,20 @@ function promptUser() {
       type: "input",
       name:"contributors",
       message:"Who's contributed to this work?"
-    }
+    },
+
     {
       type: "input",
       name: "github",
       message: "Enter your GitHub Username"
     },
+
     {
       type: "input",
       name: "email",
       message: "Enter your email address"
     }
+
   ]);
 }
 
@@ -113,9 +116,9 @@ ${answers.contributing}
 
 promptUser()
   .then(function(answers) {
-    const html = generateHTML(answers);
+    const readme = generateHTML(answers);
 
-    return writeFileAsync("README.md", html);
+    return writeFileAsync("README.md", readme);
   })
   .then(function() {
     console.log("Successfully wrote to index.html");
