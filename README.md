@@ -1,7 +1,7 @@
 
 # README generator
 
-![Demo](https://youtu.be/K8eoWKSsKWU)
+https://youtu.be/K8eoWKSsKWU
 
 ## Description 
 
