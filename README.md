@@ -1,6 +1,8 @@
 
 # README generator
 
+Link to app demo:
+
 https://youtu.be/K8eoWKSsKWU
 
 ## Description 
